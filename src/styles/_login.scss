@@ -9,9 +9,11 @@
     padding: 2rem;
     @include baseShadow;
     @include flex(column, center, stretch);
+
     > div {
       width: 100%;
       @include flex(column, flex-start, stretch, 0.2rem);
+
       > input,
       > select {
         @include inputStyle;
@@ -34,6 +36,7 @@
         border: 1px solid rgb(62, 125, 242);
         border-radius: 5px;
         font-size: 1.05rem;
+
         > svg {
           background-color: white;
           width: 30%;
@@ -46,5 +49,6 @@
         }
       }
     }
+
   }
 }
